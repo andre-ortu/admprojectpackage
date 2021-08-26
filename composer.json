@@ -1,0 +1,33 @@
+{
+    "name": "andreaortu/admproject",
+    "authors": [
+        {
+            "name": "Andrea Ortu",
+            "email": "andrea.ortu.9229@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AndreaOrtu\\AdmProject\\AdmProjectServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "AndreaOrtu\\AdmProject\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AndreaOrtu\\AdmProject\\Tests\\": "tests"
+        }
+    },
+    "version": "1.0.0",
+    "require-dev": {
+        "orchestra/testbench": "^6.20",
+        "phpunit/phpunit": "^9.3.3"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
